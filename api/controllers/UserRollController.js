@@ -20,6 +20,7 @@ module.exports = {
             }
         )
         .catch(function(error){
+            
                 return res.badRequest(error);
             }
         )
